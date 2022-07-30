@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:  'Beth Ellen', cursive;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.75rem;
+}
+
+p, ul{
+  font-family: 'American Typewriter', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 3;
+}
+
+ul{
+  list-style: square inside;
+}
+
+section{
+  padding: 2rem 6rem;
+  margin: 2rem;
+  /* background-color: gold;
+  opacity: 0.7; */
+  background-image: url('https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTIwNDk4OS1pbWFnZS1rd3Z5M2R1Yy5qcGc.jpg');
+  background-size: cover;
+  /* border: 0.3rem solid darkslateblue; */
+  box-shadow:  0 0.5rem 1rem grey;
+}
