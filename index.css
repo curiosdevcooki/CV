@@ -76,7 +76,8 @@ section{
   /* background-color: gold;
   opacity: 0.7; */
   background-image: url('https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTIwNDk4OS1pbWFnZS1rd3Z5M2R1Yy5qcGc.jpg');
-  background-size: cover;
+  /* background-size: auto auto; */
+  background-repeat: no-repeat;
 
   /* border: 0.3rem solid darkslateblue; */
   box-shadow:  0 0.5rem 1rem grey;
@@ -84,4 +85,9 @@ section{
 
 img{
   transform: translate(50%, 50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
 }
