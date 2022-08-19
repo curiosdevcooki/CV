@@ -4,4 +4,4 @@ It's a work in progress — not only concerning the content but also the way I p
 
 Feedback is highly appreciated!
 
-
+https://curiosdevcooki.github.io/CV/
