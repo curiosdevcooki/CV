@@ -10,18 +10,37 @@
 }
 
 body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  'header header'
+  'main main'
+  'footer footer';
+
   background-color: var(--color-background);
   padding: 5rem;
-  width: 100vw;
 }
 
+
 header{
+  grid-area: header;
+
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   padding: 5rem;
   background-color:var(--color-background);
   box-shadow: -6rem -6rem teal;  z-index: 1;
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+  
 }
 
 /* div:has(pre){
@@ -31,7 +50,7 @@ header{
 pre{
   font-family: 'Beth Ellen', serif;
   font-size: 2.5rem;
-  word-spacing: -0.5rem;
+  letter-spacing: -0.2rem;
   overflow: scroll;
   white-space: nowrap;
   animation: typing 5s forwards;
@@ -84,7 +103,7 @@ section{
   padding: 1rem 8rem;
   margin: 10rem 10rem;
   min-width: fit-content;
-  height: 100%;
+  height: min-content;
   background-image: url('https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMzMtZXllLTAzLmpwZw.jpg');
   /* background-color: gold; */
   box-shadow:  0 0.5rem 1rem grey;
