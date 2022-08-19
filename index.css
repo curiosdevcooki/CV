@@ -19,7 +19,7 @@ header{
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  padding: 3rem;
+  padding: 5rem;
   background-color:var(--color-background);
   box-shadow: -6rem -6rem teal;  z-index: 1;
 }
@@ -30,8 +30,8 @@ header{
 
 pre{
   font-family: 'Beth Ellen', serif;
-  padding: 0.5rem;
   font-size: 2.5rem;
+  word-spacing: -0.5rem;
   overflow: scroll;
   white-space: nowrap;
   animation: typing 5s forwards;
@@ -91,10 +91,10 @@ section{
 }
 
 img{
-  position: relative;
-  top: -15rem;
-  transform: translate(50%, 50%);
   display: block;
+  position: relative;
+  top: -5rem;
+  /* transform: translate(50%, 50%); */
   margin-left: auto;
   margin-right: auto;
 }
